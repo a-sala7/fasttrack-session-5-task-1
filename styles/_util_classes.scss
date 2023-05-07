@@ -1,0 +1,12 @@
+@import 'colors';
+@import 'mixins';
+
+.bg-white {
+    @include bg-color(white);
+}
+.text-navy {
+    @include text-color($navy);
+}
+.text-white {
+    @include text-color(white);
+}
